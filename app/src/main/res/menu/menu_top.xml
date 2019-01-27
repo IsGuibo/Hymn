@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/tappp"
+        android:orderInCategory="60"
+        android:title="提示"
+        android:icon="@drawable/baseline_contact_support_white_48dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/about"
+        android:orderInCategory="60"
+        android:title="关于"
+        android:icon="@drawable/baseline_contact_support_white_48dp"
+        app:showAsAction="never"/>
+</menu>
