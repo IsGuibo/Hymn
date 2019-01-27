@@ -40,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
             editor.putInt("isPlaying",isPlaying);
             editor.apply();
             if (isPlaying==1){
-                fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.baseline_stop_white_18dp));
+                fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.sharp_stop_24));
                 ProgressBar progressBar1 = findViewById(R.id.progress);
                 progressBar1.setVisibility(View.GONE);
             }else {
@@ -91,7 +91,7 @@ public class MainActivity extends AppCompatActivity {
         SharedPreferences preferences = getSharedPreferences("isPlaying",MODE_PRIVATE);
         isPlaying = preferences.getInt("isPlaying",0);
         if(isPlaying==1){
-            fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.baseline_stop_white_18dp));
+            fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.sharp_stop_24));
         }else {
             fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.round_play_arrow_24));
         }

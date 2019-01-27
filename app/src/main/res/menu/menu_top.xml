@@ -5,12 +5,11 @@
         android:id="@+id/tappp"
         android:orderInCategory="60"
         android:title="提示"
-        android:icon="@drawable/baseline_contact_support_white_48dp"
+        android:icon="@drawable/sharp_help_outline_24"
         app:showAsAction="ifRoom"/>
     <item
         android:id="@+id/about"
         android:orderInCategory="60"
         android:title="关于"
-        android:icon="@drawable/baseline_contact_support_white_48dp"
         app:showAsAction="never"/>
 </menu>

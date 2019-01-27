@@ -36,7 +36,7 @@
         android:layout_margin="16dp"
         android:layout_marginEnd="16dp"
         android:layout_marginBottom="16dp"
-        android:src="@drawable/search"
+        android:src="@drawable/sharp_search_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_behavior="com.example.myapplication.FadeBehavior"/>
