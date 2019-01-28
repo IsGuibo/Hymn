@@ -1,4 +1,6 @@
 package com.example.myapplication;
+import android.animation.Animator;
+import android.animation.AnimatorListenerAdapter;
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;
@@ -8,10 +10,13 @@ import android.content.SharedPreferences;
 import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.os.Bundle;
+import android.support.design.widget.AppBarLayout;
 import android.support.design.widget.CollapsingToolbarLayout;
 import android.support.design.widget.CoordinatorLayout;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
+import android.support.v4.view.animation.FastOutLinearInInterpolator;
+import android.support.v4.view.animation.LinearOutSlowInInterpolator;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
@@ -23,27 +28,92 @@ import android.widget.ProgressBar;
 
 import com.bumptech.glide.Glide;
 import com.github.barteksc.pdfviewer.PDFView;
+import com.github.jorgecastilloprz.FABProgressCircle;
 
 public class MainActivity extends AppCompatActivity {
 
-    FloatingActionButton fabPlay;
-    FloatingActionButton fabStop;
     CoordinatorLayout coordinator;
     private MyReceiver receiver = null;
     private int isPlaying;
+    private String MusicName;
+    private String MusicUrl;
+    private int op = 1;
+    private void show(final View view) {
+        view.animate().cancel();
+        view.setAlpha(0f);
+        view.setScaleY(0f);
+        view.setScaleX(0f);
+        view.animate()
+                .scaleX(1f)
+                .scaleY(1f)
+                .alpha(1f)
+                .setDuration(200)
+                .setInterpolator(new LinearOutSlowInInterpolator())
+                .setListener(new AnimatorListenerAdapter() {
+
+                    @Override
+                    public void onAnimationStart(Animator animation) {
+                        view.setVisibility(View.VISIBLE);
+                    }
+
+                    @Override
+                    public void onAnimationEnd(Animator animation) {
+
+                    }
+                });
+    }
+    private void hide(final View view) {
+        view.animate().cancel();
+        view.animate()
+                .scaleX(0f)
+                .scaleY(0f)
+                .alpha(0f)
+                .setDuration(200)
+                .setInterpolator(new FastOutLinearInInterpolator())
+                .setListener(new AnimatorListenerAdapter() {
+                    private boolean mCancelled;
+
+                    @Override
+                    public void onAnimationStart(Animator animation) {
+                        view.setVisibility(View.VISIBLE);
+                        mCancelled = false;
+                    }
+
+                    @Override
+                    public void onAnimationCancel(Animator animation) {
+                        mCancelled = true;
+                    }
+
+                    @Override
+                    public void onAnimationEnd(Animator animation) {
+                        if (!mCancelled) {
+                            view.setVisibility(View.INVISIBLE);
+                        }
+                    }
+                });
+    }
+
+
 
     public class MyReceiver extends BroadcastReceiver{
         @Override
         public void onReceive(Context context, Intent intent) {
             isPlaying = intent.getIntExtra("isPlaying",0);
+            MusicName = intent.getStringExtra("Name");
+            if(MusicName!=null&&MusicName.equals(MusicUrl)){
+                op=2;
+            }
             SharedPreferences.Editor editor =getSharedPreferences("isPlaying",MODE_PRIVATE).edit();
             editor.putInt("isPlaying",isPlaying);
             editor.apply();
             if (isPlaying==1){
-                fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.sharp_stop_24));
-                ProgressBar progressBar1 = findViewById(R.id.progress);
-                progressBar1.setVisibility(View.GONE);
+                FloatingActionButton fabPlay = findViewById(R.id.fabPlay);
+                fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.sharp_pause_24));
+                FABProgressCircle fabProgressCircle = findViewById(R.id.fabProgressCircle);
+                if(fabProgressCircle.getVisibility()==View.VISIBLE)
+                fabProgressCircle.hide();
             }else {
+                FloatingActionButton fabPlay = findViewById(R.id.fabPlay);
                 fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.round_play_arrow_24));
             }
         }
@@ -85,16 +155,35 @@ public class MainActivity extends AppCompatActivity {
         int page = intent.getIntExtra("page", 0);
         final String Name = intent.getStringExtra("name");
         String ImageUrl = intent.getStringExtra("Image");
-        final String MusicUrl = intent.getStringExtra("Music");
+        MusicUrl = intent.getStringExtra("Music");
         Toolbar toolbar = findViewById(R.id.toolbar);
-        fabPlay = findViewById(R.id.fabPlay);
+        final FABProgressCircle fabProgressCircle = findViewById(R.id.fabProgressCircle);
+        final FloatingActionButton fabPlay = findViewById(R.id.fabPlay);
+        AppBarLayout appBarLayout = findViewById(R.id.appBar);
         SharedPreferences preferences = getSharedPreferences("isPlaying",MODE_PRIVATE);
         isPlaying = preferences.getInt("isPlaying",0);
         if(isPlaying==1){
-            fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.sharp_stop_24));
+            fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.sharp_pause_24));
         }else {
             fabPlay.setImageDrawable(getResources().getDrawable(R.drawable.round_play_arrow_24));
         }
+
+        appBarLayout.addOnOffsetChangedListener(new AppBarStateChangeListener() {
+            @Override
+            public void onStateChanged(AppBarLayout appBarLayout, State state) {
+
+                if( state == State.EXPANDED ) {
+
+                    show(fabPlay);
+
+                }else if(state == State.COLLAPSED){
+
+                    hide(fabPlay);
+
+                }
+            }
+        });
+
         View.OnClickListener listener = new View.OnClickListener() {
             @SuppressLint("RestrictedApi")
             @Override
@@ -107,10 +196,9 @@ public class MainActivity extends AppCompatActivity {
                         if(isNetworkAvalible(MainActivity.this)){
                             if(isPlaying==0){
                                 if(!MusicUrl.contains("null!")){
-                                    intent.putExtra("op",1);
+                                    intent.putExtra("op",op);
+                                    if(op==1) fabProgressCircle.show();
                                     startService(intent);
-                                    ProgressBar progressBar1 = findViewById(R.id.progress);
-                                    progressBar1.setVisibility(View.VISIBLE);
                                     Snackbar.make(coordinator,"加载中，请勿重复点按。", Snackbar.LENGTH_LONG).show();
                                 }else {
                                     Snackbar.make(coordinator,"暂无“"+Name+"”的音频文件", Snackbar.LENGTH_LONG).show();
@@ -193,10 +281,7 @@ public class MainActivity extends AppCompatActivity {
 
 
 
-    @Override
-    protected void onSaveInstanceState(Bundle outState) {
-        super.onSaveInstanceState(outState);
-    }
+
 
     public boolean onCreateOptionsMenu(Menu menu) {
         getMenuInflater().inflate(R.menu.menu_top, menu);//指定Toolbar上的视图文件

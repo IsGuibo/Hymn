@@ -13,7 +13,7 @@ public class MusicService extends Service {
     MediaPlayer mMediaPlayer;
     Uri uri;
     private String Music;
-    private int op;
+    private String oldMusic;
     public MusicService() {
     }
 
@@ -30,26 +30,31 @@ public class MusicService extends Service {
             final Thread thread = new Thread(){
                 @Override
                 public void run() {
-                    if(op==1){
-                        uri = Uri.parse(Music);
-                        mMediaPlayer = MediaPlayer.create(getApplicationContext(), uri);
-                        mMediaPlayer.start();
-                        mMediaPlayer.setLooping(true);
-
-                    }else{
-                        mMediaPlayer.stop();
-
+                    switch (op){
+                        case 0:
+                            mMediaPlayer.pause();
+                            break;
+                        case 1:
+                            uri = Uri.parse(Music);
+                            mMediaPlayer = MediaPlayer.create(getApplicationContext(), uri);
+                            mMediaPlayer.start();
+                            mMediaPlayer.setLooping(true);
+                            break;
+                        case 2:
+                            mMediaPlayer.start();
+                            mMediaPlayer.setLooping(true);
+                            break;
                     }
+                    Intent intent = new Intent("music_broadcast_code_action");
+                    intent.putExtra("isPlaying", 0);
                     if (mMediaPlayer.isPlaying()){
-                        Intent intent = new Intent("music_broadcast_code_action");
+                        intent.putExtra("Name",Music);
                         intent.putExtra("isPlaying", 1);
-                        sendBroadcast(intent);
                     }
                     else {
-                        Intent intent = new Intent("music_broadcast_code_action");
                         intent.putExtra("isPlaying", 0);
-                        sendBroadcast(intent);
                     }
+                    sendBroadcast(intent);
                 }
             };
             thread.start();
