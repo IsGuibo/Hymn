@@ -197,9 +197,11 @@ public class MainActivity extends AppCompatActivity {
                             if(isPlaying==0){
                                 if(!MusicUrl.contains("null!")){
                                     intent.putExtra("op",op);
-                                    if(op==1) fabProgressCircle.show();
+                                    if(op==1) {
+                                        fabProgressCircle.show();
+                                        Snackbar.make(coordinator,"加载中，请勿重复点按。", Snackbar.LENGTH_LONG).show();
+                                    }
                                     startService(intent);
-                                    Snackbar.make(coordinator,"加载中，请勿重复点按。", Snackbar.LENGTH_LONG).show();
                                 }else {
                                     Snackbar.make(coordinator,"暂无“"+Name+"”的音频文件", Snackbar.LENGTH_LONG).show();
                                 }
