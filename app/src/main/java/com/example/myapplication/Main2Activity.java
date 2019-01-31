@@ -14,12 +14,11 @@ import com.github.florent37.materialviewpager.header.HeaderDesign;
 import java.util.Objects;
 
 public class Main2Activity extends AppCompatActivity {
-    private MaterialViewPager mViewPager;
     static final int TAPS = 2;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main2);
-        mViewPager = findViewById(R.id.materialViewPager);
+        MaterialViewPager mViewPager = findViewById(R.id.materialViewPager);
         FloatingActionButton floatingActionButton = findViewById(R.id.fab111);
         floatingActionButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -45,8 +44,6 @@ public class Main2Activity extends AppCompatActivity {
                 return null;
             }
         });
-
-
         mViewPager.getViewPager().setAdapter(new FragmentStatePagerAdapter(getSupportFragmentManager()) {
 
             @Override
@@ -80,13 +77,6 @@ public class Main2Activity extends AppCompatActivity {
 
 
     }
-
-    /**
-     * @return
-     */
-
-
-
     @Override
     protected void onDestroy() {
         super.onDestroy();
