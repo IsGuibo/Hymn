@@ -13,7 +13,6 @@ public class MusicService extends Service {
     MediaPlayer mMediaPlayer;
     Uri uri;
     private String Music;
-    private String oldMusic;
     public MusicService() {
     }
 
@@ -45,16 +44,7 @@ public class MusicService extends Service {
                             mMediaPlayer.setLooping(true);
                             break;
                     }
-                    Intent intent = new Intent("music_broadcast_code_action");
-                    intent.putExtra("isPlaying", 0);
-                    if (mMediaPlayer.isPlaying()){
-                        intent.putExtra("Name",Music);
-                        intent.putExtra("isPlaying", 1);
-                    }
-                    else {
-                        intent.putExtra("isPlaying", 0);
-                    }
-                    sendBroadcast(intent);
+                    sendPlayingBroadcast();
                 }
             };
             thread.start();
@@ -70,10 +60,19 @@ public class MusicService extends Service {
             mMediaPlayer.stop();
             mMediaPlayer.release();
         }
-        Intent intent = new Intent("music_broadcast_code_action");
-        intent.putExtra("isPlaying", 0);
-        sendBroadcast(intent);
+        sendPlayingBroadcast();
         stopSelf();
+    }
+    private void sendPlayingBroadcast(){
+        Intent intent = new Intent("music_broadcast_code_action");
+        if (mMediaPlayer.isPlaying()){
+            intent.putExtra("Name",Music);
+            intent.putExtra("isPlaying", 1);
+        }
+        else {
+            intent.putExtra("isPlaying", 0);
+        }
+        sendBroadcast(intent);
     }
     @Override
     public IBinder onBind(Intent intent) {

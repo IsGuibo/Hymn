@@ -45,13 +45,13 @@ public class Main4Activity extends AppCompatActivity {
             @Override
             public boolean onQueryTextSubmit(String query) {
                 RecyclerView recyclerView = findViewById(R.id.RV1);
-                final WordListAdapter adapter = new WordListAdapter(Main4Activity.this);
+                final RecyclerViewAdapter adapter = new RecyclerViewAdapter(Main4Activity.this);
                 recyclerView.setAdapter(adapter);
                 recyclerView.setLayoutManager(new LinearLayoutManager(Main4Activity.this));
-                WordViewModel mWordViewModel = ViewModelProviders.of(Main4Activity.this).get(WordViewModel.class);
-                mWordViewModel.getQueryWords("%"+query+"%").observe(Main4Activity.this, new Observer<List<ZMS>>() {
+                HymnViewModel mHymnViewModel = ViewModelProviders.of(Main4Activity.this).get(HymnViewModel.class);
+                mHymnViewModel.getQueryWords("%"+query+"%").observe(Main4Activity.this, new Observer<List<Hymn>>() {
                     @Override
-                    public void onChanged(@Nullable final List<ZMS> words) { adapter.setWords(words); }});
+                    public void onChanged(@Nullable final List<Hymn> words) { adapter.setWords(words); }});
                 return false;
             }
 

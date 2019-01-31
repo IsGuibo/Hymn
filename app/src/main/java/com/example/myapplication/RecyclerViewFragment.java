@@ -19,10 +19,9 @@ import java.util.List;
 public class RecyclerViewFragment extends Fragment {
     public static Fragment newInstance(){return  new RecyclerViewFragment();}
     Context context;
-    private WordViewModel mWordViewModel;
     public RecyclerView mRecyclerView;
     @Override
-    public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
+    public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         return inflater.inflate(R.layout.fragment_recycler_view, container, false);
     }
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
@@ -34,13 +33,13 @@ public class RecyclerViewFragment extends Fragment {
 
         mRecyclerView=view.findViewById(R.id.recyclerView);
         context = getActivity();
-        final WordListAdapter adapter = new WordListAdapter(context);
+        final RecyclerViewAdapter adapter = new RecyclerViewAdapter(context);
         mRecyclerView.setAdapter(adapter);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
-        mWordViewModel = ViewModelProviders.of(this).get(WordViewModel.class);
-        mWordViewModel.getAllWords().observe(this, new Observer<List<ZMS>>() {
+        HymnViewModel mHymnViewModel = ViewModelProviders.of(this).get(HymnViewModel.class);
+        mHymnViewModel.getAllWords().observe(this, new Observer<List<Hymn>>() {
             @Override
-            public void onChanged(@Nullable final List<ZMS> words) { adapter.setWords(words); }});
+            public void onChanged(@Nullable final List<Hymn> words) { adapter.setWords(words); }});
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.addItemDecoration(new MaterialViewPagerHeaderDecorator());
     }

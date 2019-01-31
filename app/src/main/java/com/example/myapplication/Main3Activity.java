@@ -3,7 +3,9 @@ import android.os.Bundle;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.RelativeLayout;
+import android.widget.Toast;
 
 import com.vansuita.materialabout.builder.AboutBuilder;
 import com.vansuita.materialabout.views.AboutView;
@@ -39,6 +41,15 @@ public class Main3Activity extends AppCompatActivity {
                 .addEmailLink("huang_guibo@outlook.com")
                 .addLink(R.mipmap.wb,"weibo","https://weibo.com/u/5242479890")
                 .addLink(R.mipmap.sharp_feedback_black,"Feedback","huang_guibo@outlook.com")
+                .addAction(R.drawable.web,"生命之光网站","http://www.smzg.com/")
+                .addAction(R.drawable.dwonload,"更新","https://github.com/IsGuibo/MyApplication/blob/master/app/release")
+                .addAction(R.drawable.church, "附近堂点", new View.OnClickListener() {
+                    @Override
+                    public void onClick(View v) {
+                        Toast.makeText(getApplicationContext(),"开发中",Toast.LENGTH_SHORT).show();
+                    }
+                })
+                .addShareAction("","https://github.com/IsGuibo/MyApplication/blob/master/app/release/app-release.apk")
                 .build();
         RelativeLayout.LayoutParams relLayoutParams=new RelativeLayout.LayoutParams
                 (RelativeLayout.LayoutParams.MATCH_PARENT,RelativeLayout.LayoutParams.MATCH_PARENT);
