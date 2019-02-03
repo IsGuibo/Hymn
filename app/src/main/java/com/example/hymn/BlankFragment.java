@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.hymn;
 import android.arch.lifecycle.Observer;
 import android.arch.lifecycle.ViewModelProviders;
 import android.content.Context;
@@ -15,33 +15,30 @@ import android.view.ViewGroup;
 import com.github.florent37.materialviewpager.header.MaterialViewPagerHeaderDecorator;
 
 import java.util.List;
+import java.util.Objects;
 
-public class RecyclerViewFragment extends Fragment {
-    public static Fragment newInstance(){return  new RecyclerViewFragment();}
+public class BlankFragment extends Fragment {
+    public static Fragment newInstance(){return  new BlankFragment();}
     Context context;
     public RecyclerView mRecyclerView;
     @Override
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_recycler_view, container, false);
+        return inflater.inflate(R.layout.fragment_blank, container, false);
     }
     public void onViewCreated(@NonNull View view, @Nullable Bundle savedInstanceState) {
-        super.onViewCreated(view, savedInstanceState);
-        init(view);
-
-    }
-    public void init(View view){
-
-        mRecyclerView=view.findViewById(R.id.recyclerView);
+        super.onViewCreated(Objects.requireNonNull(view), savedInstanceState);
+        mRecyclerView=view.findViewById(R.id.recyclerView10);
         context = getActivity();
         final RecyclerViewAdapter adapter = new RecyclerViewAdapter(context);
-
         mRecyclerView.setAdapter(adapter);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         HymnViewModel mHymnViewModel = ViewModelProviders.of(this).get(HymnViewModel.class);
-        mHymnViewModel.getAllWords().observe(this, new Observer<List<Hymn>>() {
+        mHymnViewModel.getWords().observe(this, new Observer<List<Hymn>>() {
             @Override
             public void onChanged(@Nullable final List<Hymn> words) { adapter.setWords(words); }});
         mRecyclerView.setHasFixedSize(true);
         mRecyclerView.addItemDecoration(new MaterialViewPagerHeaderDecorator());
+
     }
+
 }

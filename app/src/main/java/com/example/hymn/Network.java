@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.hymn;
 
 import android.content.Context;
 import android.net.ConnectivityManager;

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.hymn;
 import android.annotation.SuppressLint;
 import android.content.BroadcastReceiver;
 import android.content.Context;

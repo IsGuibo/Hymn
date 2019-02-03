@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.hymn;
 import android.arch.persistence.room.ColumnInfo;
 import android.arch.persistence.room.Entity;
 import android.arch.persistence.room.Ignore;

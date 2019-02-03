@@ -1,5 +1,4 @@
-package com.example.myapplication;
-import android.app.ActivityOptions;
+package com.example.hymn;
 import android.content.Context;
 import android.content.Intent;
 import android.support.annotation.NonNull;

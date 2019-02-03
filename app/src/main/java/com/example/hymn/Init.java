@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.hymn;
 
 class Init {
     private static DAO mDao;
@@ -480,194 +480,194 @@ class Init {
         hymn =new Hymn("308.天父接纳我",334,GetImage.getRandImageUrl(),"http://api.zysjh.com/Data/zjhzms/y_mp3/308/308.mp3");mDao.insert(hymn);
         hymn =new Hymn("309.新年祈望",335,GetImage.getRandImageUrl(),"http://api.zysjh.com/Data/zjhzms/y_mp3/309/309.mp3");mDao.insert(hymn);
         hymn =new Hymn("310.年终感颂",336,GetImage.getRandImageUrl(),"http://api.zysjh.com/Data/zjhzms/y_mp3/310/310.mp3");mDao.insert(hymn);
-        hymn =new Hymn("311.一齐来歌颂",337,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("312.齐聚主前",338,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("313.这世界的光是耶稣",339,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("314.耶稣呼召",340,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("315.永世的君王",341,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("316.敬拜荣耀王",342,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("317.我救主已来到",343,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("311.一齐来歌颂",337,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/311%20%E4%B8%80%E9%BD%90%E6%9D%A5%E6%AD%8C%E9%A2%82.mp3");mDao.insert(hymn);
+        hymn =new Hymn("312.齐聚主前",338,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/312%20%E9%BD%90%E8%81%9A%E4%B8%BB%E5%89%8D.mp3");mDao.insert(hymn);
+        hymn =new Hymn("313.这世界的光是耶稣",339,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/313%20%E8%BF%99%E4%B8%96%E7%95%8C%E7%9A%84%E5%85%89%E6%98%AF%E8%80%B6%E7%A8%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("314.耶稣呼召",340,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/314%20%E8%80%B6%E7%A8%A3%E5%91%BC%E5%8F%AC.mp3");mDao.insert(hymn);
+        hymn =new Hymn("315.永世的君王",341,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/315%20%E6%B0%B8%E4%B8%96%E7%9A%84%E5%90%9B%E7%8E%8B.mp3");mDao.insert(hymn);
+        hymn =new Hymn("316.敬拜荣耀王",342,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/316%20%E6%95%AC%E6%8B%9C%E8%8D%A3%E8%80%80%E7%8E%8B.mp3");mDao.insert(hymn);
+        hymn =new Hymn("317.我救主已来到",343,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/317%20%E6%88%91%E6%95%91%E4%B8%BB%E5%B7%B2%E6%9D%A5%E5%88%B0.mp3");mDao.insert(hymn);
 //
-        hymn =new Hymn("318.安稳港口",345,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("319.敬拜基督新生王",346,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("320.天使歌唱",347,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("321.信徒齐来颂主",348,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("322.荣耀归于天父",349,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("318.安稳港口",345,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/318%20%E5%AE%89%E7%A8%B3%E6%B8%AF%E5%8F%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("319.敬拜基督新生王",346,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/319%E6%95%AC%E6%8B%9C%E5%9F%BA%E7%9D%A3%E6%96%B0%E7%94%9F%E7%8E%8B.mp3");mDao.insert(hymn);
+        hymn =new Hymn("320.天使歌唱",347,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/320%20%E5%A4%A9%E4%BD%BF%E6%AD%8C%E5%94%B1.mp3");mDao.insert(hymn);
+        hymn =new Hymn("321.信徒齐来颂主",348,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/321.mp3");mDao.insert(hymn);
+        hymn =new Hymn("322.荣耀归于天父",349,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/322%20%E8%8D%A3%E8%80%80%E5%BD%92%E4%BA%8E%E5%A4%A9%E7%88%B6.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("323.献上千万荣冠",351,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("324.慈爱的救主",352,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("325.救主耶稣是我至宝",353,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("323.献上千万荣冠",351,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/323%20%E7%8C%AE%E4%B8%8A%E5%8D%83%E4%B8%87%E8%8D%A3%E5%86%A0.mp3");mDao.insert(hymn);
+        hymn =new Hymn("324.慈爱的救主",352,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/324%20%E6%85%88%E7%88%B1%E7%9A%84%E6%95%91%E4%B8%BB.mp3");mDao.insert(hymn);
+        hymn =new Hymn("325.救主耶稣是我至宝",353,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/325%20%E6%95%91%E4%B8%BB%E8%80%B6%E7%A8%A3%E6%98%AF%E6%88%91%E8%87%B3%E5%AE%9D.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("326.欢唱咏不停",355,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("327.多认识耶稣",356,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("328.赞美真神创造主",357,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("329.天父我神",358,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("330.奇妙平安由神来",359,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("331.圣灵信实保惠师",360,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("332.真神大爱",361,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("326.欢唱咏不停",355,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/326%20%E6%AC%A2%E5%94%B1%E5%92%8F%E4%B8%8D%E5%81%9C.mp3");mDao.insert(hymn);
+        hymn =new Hymn("327.多认识耶稣",356,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/327%20%E5%A4%9A%E8%AE%A4%E8%AF%86%E8%80%B6%E7%A8%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("328.赞美真神创造主",357,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/328%20%E8%B5%9E%E7%BE%8E%E7%9C%9F%E7%A5%9E%E5%88%9B%E9%80%A0%E4%B8%BB.mp3");mDao.insert(hymn);
+        hymn =new Hymn("329.天父我神",358,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/329%20%E5%A4%A9%E7%88%B6%E6%88%91%E7%A5%9E.mp3");mDao.insert(hymn);
+        hymn =new Hymn("330.奇妙平安由神来",359,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/330%20%E5%A5%87%E5%A6%99%E5%B9%B3%E5%AE%89%E7%94%B1%E7%A5%9E%E6%9D%A5.mp3");mDao.insert(hymn);
+        hymn =new Hymn("331.圣灵信实保惠师",360,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/331%20%E5%9C%A3%E7%81%B5%E4%BF%A1%E5%AE%9E%E4%BF%9D%E6%83%A0%E5%B8%88.mp3");mDao.insert(hymn);
+        hymn =new Hymn("332.真神大爱",361,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/332%20%E7%9C%9F%E7%A5%9E%E5%A4%A7%E7%88%B1.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("333.欣逢圣日",363,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("333.欣逢圣日",363,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/333%20%E6%AC%A3%E9%80%A2%E5%9C%A3%E6%97%A5.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("334.耶稣，沙仑玫瑰",365,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("334.耶稣，沙仑玫瑰",365,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/334%20%E8%80%B6%E7%A8%A3%EF%BC%8C%E6%B2%99%E4%BB%91%E7%8E%AB%E7%91%B0.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("335.真希奇，我主的慈爱",367,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("336.耶稣是否仍然看顾我？",368,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("337.耶稣拣选我",369,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("338.祂拯救我",370,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("339.耶稣是我一切所有",371,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("340.奇妙的救主",372,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("341.让主耶稣进入你心",373,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("342.你的光当照耀",374,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("343.爱拯救我",375,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("335.真希奇，我主的慈爱",367,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/335%20%E7%9C%9F%E5%B8%8C%E5%A5%87%EF%BC%8C%E6%88%91%E4%B8%BB%E7%9A%84%E6%85%88%E7%88%B1.mp3");mDao.insert(hymn);
+        hymn =new Hymn("336.耶稣是否仍然看顾我？",368,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/336%20%E8%80%B6%E7%A8%A3%E6%98%AF%E5%90%A6%E4%BB%8D%E7%84%B6%E7%9C%8B%E9%A1%BE%E6%88%91.mp3");mDao.insert(hymn);
+        hymn =new Hymn("337.耶稣拣选我",369,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/337%20%E8%80%B6%E7%A8%A3%E6%8B%A3%E9%80%89%E6%88%91.mp3");mDao.insert(hymn);
+        hymn =new Hymn("338.祂拯救我",370,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/338%20%E4%BB%96%E6%8B%AF%E6%95%91%E6%88%91.mp3");mDao.insert(hymn);
+        hymn =new Hymn("339.耶稣是我一切所有",371,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/339%20%E8%80%B6%E7%A8%A3%E6%98%AF%E6%88%91%E4%B8%80%E5%88%87%E6%89%80%E6%9C%89.mp3");mDao.insert(hymn);
+        hymn =new Hymn("340.奇妙的救主",372,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/340%20%E5%A5%87%E5%A6%99%E7%9A%84%E6%95%91%E4%B8%BB.mp3");mDao.insert(hymn);
+        hymn =new Hymn("341.让主耶稣进入你心",373,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/341%20%E8%AE%A9%E4%B8%BB%E8%80%B6%E7%A8%A3%E8%BF%9B%E5%85%A5%E4%BD%A0%E5%BF%83.mp3");mDao.insert(hymn);
+        hymn =new Hymn("342.你的光当照耀",374,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/342%20%E4%BD%A0%E7%9A%84%E5%85%89%E5%BD%93%E7%85%A7%E8%80%80.mp3");mDao.insert(hymn);
+        hymn =new Hymn("343.爱拯救我",375,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/343%20%E7%88%B1%E6%8B%AF%E6%95%91%E6%88%91.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("344.暴风雨中的避难所",377,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("345.深哉，深哉，耶稣的爱",378,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("346.耶稣温柔慈声呼唤",379,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("347.万古磐石藏身所",380,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("348.祂是奇妙救主",381,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("349.救主正在等待",382,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("350.主比生命更宝贵",383,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("351.每一天",384,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("352.主藏我灵",385,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("344.暴风雨中的避难所",377,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/344%20%E6%9A%B4%E9%A3%8E%E9%9B%A8%E4%B8%AD%E7%9A%84%E9%81%BF%E9%9A%BE%E6%89%80.mp3");mDao.insert(hymn);
+        hymn =new Hymn("345.深哉，深哉，耶稣的爱",378,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/345%20%E6%B7%B1%E5%93%89%EF%BC%8C%E6%B7%B1%E5%93%89%EF%BC%8C%E8%80%B6%E7%A8%A3%E7%9A%84%E7%88%B1.mp3");mDao.insert(hymn);
+        hymn =new Hymn("346.耶稣温柔慈声呼唤",379,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/346%20%E8%80%B6%E7%A8%A3%E6%B8%A9%E6%9F%94%E6%85%88%E5%A3%B0%E5%91%BC%E5%94%A4.mp3");mDao.insert(hymn);
+        hymn =new Hymn("347.万古磐石藏身所",380,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/347%20%E4%B8%87%E5%8F%A4%E7%A3%90%E7%9F%B3%E8%97%8F%E8%BA%AB%E6%89%80.mp3");mDao.insert(hymn);
+        hymn =new Hymn("348.祂是奇妙救主",381,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/348%20%E4%BB%96%E6%98%AF%E5%A5%87%E5%A6%99%E6%95%91%E4%B8%BB.mp3");mDao.insert(hymn);
+        hymn =new Hymn("349.救主正在等待",382,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/349%20%E6%95%91%E4%B8%BB%E6%AD%A3%E5%9C%A8%E7%AD%89%E5%BE%85.mp3");mDao.insert(hymn);
+        hymn =new Hymn("350.主比生命更宝贵",383,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/350%20%E4%B8%BB%E6%AF%94%E7%94%9F%E5%91%BD%E6%9B%B4%E5%AE%9D%E8%B4%B5.mp3");mDao.insert(hymn);
+        hymn =new Hymn("351.每一天",384,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/351%20%E6%AF%8F%E4%B8%80%E5%A4%A9.mp3");mDao.insert(hymn);
+        hymn =new Hymn("352.主藏我灵",385,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/352%20%E4%B8%BB%E8%97%8F%E6%88%91%E7%81%B5.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("353.在主十架下",387,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("354.只要信祂",388,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("355.平安永在我心",389,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("353.在主十架下",387,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/353%20%E5%9C%A8%E4%B8%BB%E5%8D%81%E6%9E%B6%E4%B8%8B.mp3");mDao.insert(hymn);
+        hymn =new Hymn("354.只要信祂",388,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/354%20%E5%8F%AA%E8%A6%81%E4%BF%A1%E4%BB%96.mp3");mDao.insert(hymn);
+        hymn =new Hymn("355.平安永在我心",389,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/355%20%E5%B9%B3%E5%AE%89%E6%B0%B8%E5%9C%A8%E6%88%91%E5%BF%83.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("356.信心使我得胜",391,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("356.信心使我得胜",391,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/356%20%E4%BF%A1%E5%BF%83%E4%BD%BF%E6%88%91%E5%BE%97%E8%83%9C.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("357.主耶和华是我牧者",393,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("358.基督活在我心",394,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("359.同心前往锡安",395,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("360.你心可有住处为主？",396,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("361.领我到髑髅地",397,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("362.求主擘生命饼",398,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("363.坚立在应许上",399,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("364.主话语深藏我心",400,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("365.救主受难",401,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("366.照主旨意行",402,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("367.祂看顾麻雀",403,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("357.主耶和华是我牧者",393,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/357%20%E4%B8%BB%E8%80%B6%E5%92%8C%E5%8D%8E%E6%98%AF%E6%88%91%E7%89%A7%E8%80%85.mp3");mDao.insert(hymn);
+        hymn =new Hymn("358.基督活在我心",394,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/358%20%E5%9F%BA%E7%9D%A3%E6%B4%BB%E5%9C%A8%E6%88%91%E5%BF%83.mp3");mDao.insert(hymn);
+        hymn =new Hymn("359.同心前往锡安",395,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/359%20%E5%90%8C%E5%BF%83%E5%89%8D%E5%BE%80%E9%94%A1%E5%AE%89.mp3");mDao.insert(hymn);
+        hymn =new Hymn("360.你心可有住处为主？",396,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/360%20%E4%BD%A0%E6%94%B6%E5%8F%AF%E6%9C%89%E4%BD%8F%E5%A4%84%E4%B8%BA%E4%B8%BB.mp3");mDao.insert(hymn);
+        hymn =new Hymn("361.领我到髑髅地",397,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/361%20%E9%A2%86%E6%88%91%E5%88%B0%E9%AB%91%E9%AB%85%E5%9C%B0.mp3");mDao.insert(hymn);
+        hymn =new Hymn("362.求主擘生命饼",398,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/362%20%E6%B1%82%E4%B8%BB%E6%93%98%E7%94%9F%E5%91%BD%E9%A5%BC.mp3");mDao.insert(hymn);
+        hymn =new Hymn("363.坚立在应许上",399,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/363%20%E5%9D%9A%E7%AB%8B%E5%9C%A8%E5%BA%94%E8%AE%B8%E4%B8%8A.mp3");mDao.insert(hymn);
+        hymn =new Hymn("364.主话语深藏我心",400,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/364%20%E4%B8%BB%E8%AF%9D%E8%AF%AD%E6%B7%B1%E8%97%8F%E6%88%91%E5%BF%83.mp3");mDao.insert(hymn);
+        hymn =new Hymn("365.救主受难",401,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/365%20%E6%95%91%E4%B8%BB%E5%8F%97%E9%9A%BE.mp3");mDao.insert(hymn);
+        hymn =new Hymn("366.照主旨意行",402,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/366%20%E7%85%A7%E4%B8%BB%E6%97%A8%E6%84%8F%E8%A1%8C.mp3");mDao.insert(hymn);
+        hymn =new Hymn("367.祂看顾麻雀",403,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/367%20%E4%BB%96%E7%9C%8B%E9%A1%BE%E9%BA%BB%E9%9B%80.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("368.快传福音",405,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("369.在各各他",406,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("370.主帮助我们",407,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("371.面临试炼时候",408,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("372.降百福甘霖",409,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("373.只要相信",410,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("374.求永恒君王前导",411,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("375.主呼召你",412,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("376.坚固磐石",413,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("377.主常常顾念我",414,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("378.信靠顺服",415,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("379.转眼仰望耶稣",416,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("380.我主是我生命标竿",417,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("368.快传福音",405,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/368%20%E5%BF%AB%E4%BC%A0%E7%A6%8F%E9%9F%B3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("369.在各各他",406,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/369%20%E5%9C%A8%E5%90%84%E5%90%84%E4%BB%96.mp3");mDao.insert(hymn);
+        hymn =new Hymn("370.主帮助我们",407,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/370%20%E4%B8%BB%E5%B8%AE%E5%8A%A9%E6%88%91%E4%BB%AC.mp3");mDao.insert(hymn);
+        hymn =new Hymn("371.面临试炼时候",408,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/371%20%E9%9D%A2%E4%B8%B4%E8%AF%95%E7%82%BC%E6%97%B6%E5%80%99.mp3");mDao.insert(hymn);
+        hymn =new Hymn("372.降百福甘霖",409,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/372%20%E9%99%8D%E7%99%BE%E7%A6%8F%E7%94%98%E9%9C%96.mp3");mDao.insert(hymn);
+        hymn =new Hymn("373.只要相信",410,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/373%20%E5%8F%AA%E8%A6%81%E7%9B%B8%E4%BF%A1.mp3");mDao.insert(hymn);
+        hymn =new Hymn("374.求永恒君王前导",411,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/374%20%E6%B1%82%E6%B0%B8%E6%81%92%E5%90%9B%E7%8E%8B%E5%89%8D%E5%AF%BC.mp3");mDao.insert(hymn);
+        hymn =new Hymn("375.主呼召你",412,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/375%20%E4%B8%BB%E5%91%BC%E5%8F%AC%E4%BD%A0.mp3");mDao.insert(hymn);
+        hymn =new Hymn("376.坚固磐石",413,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/376%20%E5%9D%9A%E5%9B%BA%E7%A3%90%E7%9F%B3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("377.主常常顾念我",414,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/377%20%E4%B8%BB%E5%B8%B8%E5%B8%B8%E9%A1%BE%E5%BF%B5%E6%88%91.mp3");mDao.insert(hymn);
+        hymn =new Hymn("378.信靠顺服",415,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/378%20%E4%BF%A1%E9%9D%A0%E9%A1%BA%E6%9C%8D.mp3");mDao.insert(hymn);
+        hymn =new Hymn("379.转眼仰望耶稣",416,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/379%20%E8%BD%AC%E7%9C%BC%E4%BB%B0%E6%9C%9B%E8%80%B6%E7%A8%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("380.我主是我生命标竿",417,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/380%20%E6%88%91%E4%B8%BB%E6%98%AF%E6%88%91%E7%94%9F%E5%91%BD%E6%A0%87%E7%AB%BF.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("381.我何等爱耶稣",419,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("382.我灵安稳",420,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("383.将有一天",421,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("384.我愿效法耶稣",422,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("385.救赎",423,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("381.我何等爱耶稣",419,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/381%20%E6%88%91%E4%BD%95%E7%AD%89%E7%88%B1%E8%80%B6%E7%A8%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("382.我灵安稳",420,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/382%20%E6%88%91%E7%81%B5%E5%AE%89%E7%A8%B3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("383.将有一天",421,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/383%20%E5%B0%86%E6%9C%89%E4%B8%80%E5%A4%A9.mp3");mDao.insert(hymn);
+        hymn =new Hymn("384.我愿效法耶稣",422,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/384%20%E6%88%91%E6%84%BF%E6%95%88%E6%B3%95%E8%80%B6%E7%A8%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("385.救赎",423,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/385%20%E6%95%91%E8%B5%8E.mp3");mDao.insert(hymn);
         hymn =new Hymn("386.我得一友",424,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
         hymn =new Hymn("387.求主对我述说",425,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("388.靠近耶稣慈怀",426,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("388.靠近耶稣慈怀",426,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/388%20%E9%9D%A0%E8%BF%91%E8%80%B6%E7%A8%A3%E6%85%88%E6%80%80.mp3");mDao.insert(hymn);
         hymn =new Hymn("389.亲近，更亲近",427,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("390.主！我愿更亲近祢",428,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("391.永不孤单",429,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("390.主！我愿更亲近祢",428,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/390%20%E4%B8%BB%E6%88%91%E6%84%BF%E6%9B%B4%E4%BA%B2%E8%BF%91%E4%BD%A0.mp3");mDao.insert(hymn);
+        hymn =new Hymn("391.永不孤单",429,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/391%20%E5%AD%A4%E5%8D%95%E6%B0%B8%E4%B8%8D.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("392.任主差派",431,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("392.任主差派",431,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/392%20%E4%BB%BB%E4%B8%BB%E5%B7%AE%E6%B4%BE.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("393.听！良牧慈声",433,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("394.感谢神",434,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("395.向高处行",435,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("396.我要真诚",436,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("397.何不今日归耶稣？",437,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("393.听！良牧慈声",433,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/393%20%E5%90%AC%EF%BC%8C%E8%89%AF%E7%89%A7%E6%85%88%E5%A3%B0.mp3");mDao.insert(hymn);
+        hymn =new Hymn("394.感谢神",434,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/394%20%E6%84%9F%E8%B0%A2%E7%A5%9E.mp3");mDao.insert(hymn);
+        hymn =new Hymn("395.向高处行",435,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/395%20%E5%90%91%E9%AB%98%E5%A4%84%E8%A1%8C.mp3");mDao.insert(hymn);
+        hymn =new Hymn("396.我要真诚",436,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/396%20%E6%88%91%E8%A6%81%E7%9C%9F%E8%AF%9A.mp3");mDao.insert(hymn);
+        hymn =new Hymn("397.何不今日归耶稣？",437,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/397%20%E4%BD%95%E4%B8%8D%E4%BB%8A%E6%97%A5%E5%BD%92%E8%80%B6%E7%A8%A3.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("398.为主而活",439,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("398.为主而活",439,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/398%20%E4%B8%BA%E4%B8%BB%E8%80%8C%E6%B4%BB.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("399.主，我愿做祢门徒",441,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("400.我深愿更像耶稣",442,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("401.须用工夫成圣",443,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("402.神的道路",444,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("403.任凭主旨意",445,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("404.赞美救主",446,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("399.主，我愿做祢门徒",441,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/399%20%E4%B8%BB%EF%BC%8C%E6%88%91%E6%84%BF%E5%81%9A%E4%BD%A0%E9%97%A8%E5%BE%92.mp3");mDao.insert(hymn);
+        hymn =new Hymn("400.我深愿更像耶稣",442,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/400%20%E6%88%91%E6%B7%B1%E6%84%BF%E6%9B%B4%E5%83%8F%E8%80%B6%E7%A8%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("401.须用工夫成圣",443,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/401%20%E9%A1%BB%E7%94%A8%E5%B7%A5%E5%A4%AB%E6%88%90%E5%9C%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("402.神的道路",444,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/402%20%E7%A5%9E%E7%9A%84%E9%81%93%E8%B7%AF.mp3");mDao.insert(hymn);
+        hymn =new Hymn("403.任凭主旨意",445,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/403%20%E4%BB%BB%E5%87%AD%E4%B8%BB%E6%97%A8%E6%84%8F.mp3");mDao.insert(hymn);
+        hymn =new Hymn("404.赞美救主",446,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/404%20%E8%B5%9E%E7%BE%8E%E6%95%91%E4%B8%BB.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("405.你是否已祷告",448,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("406.要告诉耶稣",449,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("407.在花园里",450,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("405.你是否已祷告",448,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/405%E4%BD%A0%E6%98%AF%E5%90%A6%E5%B7%B2%E7%A5%B7%E5%91%8A.mp3");mDao.insert(hymn);
+        hymn =new Hymn("406.要告诉耶稣",449,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/406%20%E8%A6%81%E5%91%8A%E8%AF%89%E8%80%B6%E7%A8%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("407.在花园里",450,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/407%20%E5%9C%A8%E8%8A%B1%E5%9B%AD%E9%87%8C.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("408.若主今日再临",452,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("408.若主今日再临",452,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/408%20%E8%8B%A5%E4%B8%BB%E4%BB%8A%E6%97%A5%E5%86%8D%E4%B8%B4.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("409.我可愿作十架精兵？",454,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("410.再等不多时",455,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("411.美丽的祷告花园",456,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("412.宝贵祷告良辰",457,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("413.我们同心聚集",458,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("414.恩主与我同在",459,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("415.献上至好的",460,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("409.我可愿作十架精兵？",454,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/409%20%E6%88%91%E5%8F%AF%E6%84%BF%E5%81%9A%E5%8D%81%E6%9E%B6%E7%B2%BE%E5%85%B5.mp3");mDao.insert(hymn);
+        hymn =new Hymn("410.再等不多时",455,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/410%20%E5%86%8D%E7%AD%89%E4%B8%8D%E5%A4%9A%E6%97%B6.mp3");mDao.insert(hymn);
+        hymn =new Hymn("411.美丽的祷告花园",456,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/411%20%E7%BE%8E%E4%B8%BD%E7%9A%84%E7%A5%B7%E5%91%8A%E8%8A%B1%E5%9B%AD.mp3");mDao.insert(hymn);
+        hymn =new Hymn("412.宝贵祷告良辰",457,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/412%20%E5%AE%9D%E8%B4%B5%E7%A5%B7%E5%91%8A%E8%89%AF%E8%BE%B0.mp3");mDao.insert(hymn);
+        hymn =new Hymn("413.我们同心聚集",458,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/413%20%E6%88%91%E4%BB%AC%E5%90%8C%E5%BF%83%E8%81%9A%E9%9B%86.mp3");mDao.insert(hymn);
+        hymn =new Hymn("414.恩主与我同在",459,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/414%20%E6%81%A9%E4%B8%BB%E4%B8%8E%E6%88%91%E5%90%8C%E5%9C%A8.mp3");mDao.insert(hymn);
+        hymn =new Hymn("415.献上至好的",460,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/415%E7%9A%84%20%E7%8C%AE%E4%B8%8A%E8%87%B3.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("416.你可情愿？",462,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("417.耶稣领我回家",463,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("418.一切献在坛上",464,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("416.你可情愿？",462,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/416%20%E4%BD%A0%E5%8F%AF%E6%83%85%E6%84%BF.mp3");mDao.insert(hymn);
+        hymn =new Hymn("417.耶稣领我回家",463,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/417%20%E8%80%B6%E7%A8%A3%E9%A2%86%E6%88%91%E5%9B%9E%E5%AE%B6.mp3");mDao.insert(hymn);
+        hymn =new Hymn("418.一切献在坛上",464,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/418%20%E4%B8%80%E5%88%87%E7%8C%AE%E5%9C%A8%E5%9D%9B%E4%B8%8A.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("419.因我得福",466,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("420.奉献与祢",467,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("421.请来赴宴",468,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("422.我锚坚固牢靠",469,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("423.对我述说耶稣故事",470,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("424.我王之事工",471,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("425.我属我王",472,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("426.何等奇妙的救主",473,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("427.有一故事传给万邦",474,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("428.耶稣与我同行",475,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("429.我必亲见荣耀主",476,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("419.因我得福",466,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/419%20%E5%9B%A0%E6%88%91%E5%BE%97%E7%A6%8F.mp3");mDao.insert(hymn);
+        hymn =new Hymn("420.奉献与祢",467,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/420%20%E5%A5%89%E7%8C%AE%E4%B8%8E%E4%BD%A0.mp3");mDao.insert(hymn);
+        hymn =new Hymn("421.请来赴宴",468,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/421%20%E8%AF%B7%E6%9D%A5%E8%B5%B4%E5%AE%B4.mp3");mDao.insert(hymn);
+        hymn =new Hymn("422.我锚坚固牢靠",469,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/422%20%E6%88%91%E9%94%9A%E5%9D%9A%E5%9B%BA%E7%89%A2%E9%9D%A0.mp3");mDao.insert(hymn);
+        hymn =new Hymn("423.对我述说耶稣故事",470,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/423%20%E5%AF%B9%E6%88%91%E8%BF%B0%E8%AF%B4%E8%80%B6%E7%A8%A3%E6%95%85%E4%BA%8B.mp3");mDao.insert(hymn);
+        hymn =new Hymn("424.我王之事工",471,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/424%20%E6%88%91%E7%8E%8B%E4%B9%8B%E4%BA%8B%E5%B7%A5.mp3");mDao.insert(hymn);
+        hymn =new Hymn("425.我属我王",472,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/425%20%E6%88%91%E5%B1%9E%E6%88%91%E7%8E%8B.mp3");mDao.insert(hymn);
+        hymn =new Hymn("426.何等奇妙的救主",473,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/426%20%E4%BD%95%E7%AD%89%E5%A5%87%E5%A6%99%E7%9A%84%E6%95%91%E4%B8%BB.mp3");mDao.insert(hymn);
+        hymn =new Hymn("427.有一故事传给万邦",474,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/427%20%E6%9C%89%E4%B8%80%E6%95%85%E4%BA%8B%E4%BC%A0%E7%BB%99%E4%B8%87%E9%82%A6.mp3");mDao.insert(hymn);
+        hymn =new Hymn("428.耶稣与我同行",475,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/428%20%E8%80%B6%E7%A8%A3%E4%B8%8E%E6%88%91%E5%90%8C%E8%A1%8C.mp3");mDao.insert(hymn);
+        hymn =new Hymn("429.我必亲见荣耀主",476,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/429%20%E6%88%91%E5%BF%85%E4%BA%B2%E8%A7%81%E8%8D%A3%E8%80%80%E4%B8%BB.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("430.我们聚集生命河边",478,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("431.全备的爱",479,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("432.祂大能手扶持我",480,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("433.奇妙平安",481,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("434.在那荣耀国度",482,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("430.我们聚集生命河边",478,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/430%20%E6%88%91%E4%BB%AC%E8%81%9A%E9%9B%86%E7%94%9F%E5%91%BD%E6%B2%B3%E8%BE%B9.mp3");mDao.insert(hymn);
+        hymn =new Hymn("431.全备的爱",479,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/431%20%E5%85%A8%E5%A4%87%E7%9A%84%E7%88%B1.mp3");mDao.insert(hymn);
+        hymn =new Hymn("432.祂大能手扶持我",480,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/432%20%E4%BB%96%E5%A4%A7%E8%83%BD%E6%89%8B%E6%89%B6%E6%8C%81%E6%88%91.mp3");mDao.insert(hymn);
+        hymn =new Hymn("433.奇妙平安",481,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/433%20%E5%A5%87%E5%A6%99%E5%B9%B3%E5%AE%89.mp3");mDao.insert(hymn);
+        hymn =new Hymn("434.在那荣耀国度",482,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/434%20%E5%9C%A8%E9%82%A3%E8%8D%A3%E8%80%80%E5%9B%BD%E5%BA%A6.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("435.歌颂救赎恩主",484,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("435.歌颂救赎恩主",484,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/435%20%E6%AD%8C%E9%A2%82%E6%95%91%E8%B5%8E%E6%81%A9%E4%B8%BB.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("436.我一生蒙救主引导",486,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("436.我一生蒙救主引导",486,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/436%20%E6%88%91%E4%B8%80%E7%94%9F%E8%92%99%E4%B8%BB%E5%BC%95%E5%AF%BC.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("437.谁正守候在门外？",488,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("438.颂主创造美好",489,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("439.时刻交托主",490,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("440.在主爱中团契",491,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("441.我立下决心",492,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("442.神一路引领",493,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("443.荣耀永归耶稣",494,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("444.耶稣圣名最甜美",495,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("445.恩典大过我罪愆",496,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("446.颂赞主圣名",497,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("447.高唱和散那",498,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("448.欢欣，主为君王",499,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("449.何能如此",500,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("437.谁正守候在门外？",488,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/437%20%E8%B0%81%E6%AD%A3%E7%AD%89%E5%80%99%E9%97%A8%E5%A4%96.mp3");mDao.insert(hymn);
+        hymn =new Hymn("438.颂主创造美好",489,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/438%20%E9%A2%82%E4%B8%BB%E5%88%9B%E9%80%A0%E7%BE%8E%E5%A5%BD.mp3");mDao.insert(hymn);
+        hymn =new Hymn("439.时刻交托主",490,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/439%20%E6%97%B6%E5%88%BB%E4%BA%A4%E6%89%98%E4%B8%BB.mp3");mDao.insert(hymn);
+        hymn =new Hymn("440.在主爱中团契",491,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/440%20%E5%9C%A8%E4%B8%BB%E7%88%B1%E4%B8%AD%E5%9B%A2%E5%A5%91.mp3");mDao.insert(hymn);
+        hymn =new Hymn("441.我立下决心",492,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/441%E6%88%91%E7%AB%8B%E4%B8%8B%E5%86%B3%E5%BF%83.mp3");mDao.insert(hymn);
+        hymn =new Hymn("442.神一路引领",493,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/442%20%E7%A5%9E%E4%B8%80%E8%B7%AF%E5%BC%95%E9%A2%86.mp3");mDao.insert(hymn);
+        hymn =new Hymn("443.荣耀永归耶稣",494,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/443%20%E8%8D%A3%E8%80%80%E6%B0%B8%E5%BD%92%E8%80%B6%E7%A8%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("444.耶稣圣名最甜美",495,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/444%20%E8%80%B6%E7%A8%A3%E5%9C%A3%E5%90%8D%E6%9C%80%E7%94%9C%E7%BE%8E.mp3");mDao.insert(hymn);
+        hymn =new Hymn("445.恩典大过我罪愆",496,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/445%20%E6%81%A9%E5%85%B8%E5%A4%A7%E8%BF%87%E6%88%91%E7%BD%AA%E6%84%86.mp3");mDao.insert(hymn);
+        hymn =new Hymn("446.颂赞主圣名",497,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/446%20%E9%A2%82%E8%B5%9E%E4%B8%BB%E5%9C%A3%E5%90%8D.mp3");mDao.insert(hymn);
+        hymn =new Hymn("447.高唱和散那",498,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/447%20%E9%AB%98%E5%94%B1%E5%92%8C%E6%95%A3%E9%82%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("448.欢欣，主为君王",499,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/448%20%E6%AC%A2%E6%AC%A3%E4%B8%BB%E4%B8%BA%E5%90%9B%E7%8E%8B.mp3");mDao.insert(hymn);
+        hymn =new Hymn("449.何能如此",500,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/449%20%E4%BD%95%E8%83%BD%E5%A6%82%E6%AD%A4.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("450.吹响征战号",502,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("451.藏身主怀",503,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("452.我愿常见祢",504,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("453.我是君王后嗣",505,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("454.以马内利，恳求降临",506,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("455.最美圣名",507,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("456.归家",508,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("450.吹响征战号",502,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/450%20%E5%90%B9%E5%93%8D%E5%BE%81%E6%88%98%E5%8F%B7.mp3");mDao.insert(hymn);
+        hymn =new Hymn("451.藏身主怀",503,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/451%20%E8%97%8F%E8%BA%AB%E4%B8%BB%E6%80%80.mp3");mDao.insert(hymn);
+        hymn =new Hymn("452.我愿常见祢",504,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/452%20%E6%88%91%E6%84%BF%E8%A7%81%E4%BD%A0.mp3");mDao.insert(hymn);
+        hymn =new Hymn("453.我是君王后嗣",505,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/453%20%E6%88%91%E6%98%AF%E5%90%9B%E7%8E%8B%E5%90%8E%E5%97%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("454.以马内利，恳求降临",506,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/454%20%E4%BB%A5%E9%A9%AC%E5%86%85%E5%88%A9%EF%BC%8C%E6%81%B3%E6%B1%82%E9%99%8D%E4%B8%B4.mp3");mDao.insert(hymn);
+        hymn =new Hymn("455.最美圣名",507,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/455%20%E6%9C%80%E7%BE%8E%E5%9C%A3%E5%90%8D.mp3");mDao.insert(hymn);
+        hymn =new Hymn("456.归家",508,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/456%20%E5%BD%92%E5%AE%B6.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("457.耶稣奇妙的救恩",510,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("457.耶稣奇妙的救恩",510,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/457%20%E8%80%B6%E7%A8%A3%E5%A5%87%E5%A6%99%E7%9A%84%E6%95%91%E6%81%A9.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("458.你在哪里？",512,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("459.约旦河畔",513,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("460.愿主赐福保佑你",514,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("461.快抛救生索",515,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("462.哈利路亚，奇妙君王",516,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("463.当欢欣喜乐",517,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("464.先贤所信",518,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("458.你在哪里？",512,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/458%20%E4%BD%A0%E5%9C%A8%E5%93%AA%E9%87%8C.mp3");mDao.insert(hymn);
+        hymn =new Hymn("459.约旦河畔",513,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/459%20%E7%BA%A6%E6%97%A6%E6%B2%B3%E7%95%94.mp3");mDao.insert(hymn);
+        hymn =new Hymn("460.愿主赐福保佑你",514,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/460%E6%84%BF%E4%B8%BB%E8%B5%90%E7%A6%8F%E4%BF%9D%E4%BD%91%E4%BD%A0.mp3");mDao.insert(hymn);
+        hymn =new Hymn("461.快抛救生索",515,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/461%20%E5%BF%AB%E6%8A%9B%E6%95%91%E7%94%9F%E7%B4%A2.mp3");mDao.insert(hymn);
+        hymn =new Hymn("462.哈利路亚，奇妙君王",516,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/462%20%E5%93%88%E5%88%A9%E8%B7%AF%E4%BA%9A%EF%BC%8C%E5%A5%87%E5%A6%99%E5%90%9B%E7%8E%8B.mp3");mDao.insert(hymn);
+        hymn =new Hymn("463.当欢欣喜乐",517,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/463%20%E5%BD%93%E6%AC%A2%E6%AC%A3%E5%96%9C%E4%B9%90.mp3");mDao.insert(hymn);
+        hymn =new Hymn("464.先贤所信",518,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/464%20%E5%85%88%E8%B4%A4%E6%89%80%E4%BF%A1.mp3");mDao.insert(hymn);
 
-        hymn =new Hymn("465.到各山岭去传扬",520,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("466.赞美耶稣基督",521,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("467.主的应许",522,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("468.宝贵回忆",523,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("469.灵恩大会",524,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("465.到各山岭去传扬",520,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/465%20%E5%88%B0%E5%90%84%E5%B1%B1%E5%B2%AD%E5%8E%BB%E4%BC%A0%E6%89%AC.mp3");mDao.insert(hymn);
+        hymn =new Hymn("466.赞美耶稣基督",521,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/466%20%E8%B5%9E%E7%BE%8E%E8%80%B6%E7%A8%A3%E5%9F%BA%E7%9D%A3.mp3");mDao.insert(hymn);
+        hymn =new Hymn("467.主的应许",522,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/467%20%E4%B8%BB%E7%9A%84%E5%BA%94%E8%AE%B8.mp3");mDao.insert(hymn);
+        hymn =new Hymn("468.宝贵回忆",523,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/468%20%E5%AE%9D%E8%B4%B5%E5%9B%9E%E5%BF%86.mp3");mDao.insert(hymn);
+        hymn =new Hymn("469.灵恩大会",524,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/469%20%E7%81%B5%E6%81%A9%E5%A4%A7%E4%BC%9A.mp3");mDao.insert(hymn);
 
 
 

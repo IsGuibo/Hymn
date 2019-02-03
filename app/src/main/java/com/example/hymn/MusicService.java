@@ -1,13 +1,10 @@
-package com.example.myapplication;
+package com.example.hymn;
 
 import android.app.Service;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.net.Uri;
-import android.os.Bundle;
 import android.os.IBinder;
-import android.support.design.widget.Snackbar;
-import android.widget.Toast;
 
 public class MusicService extends Service {
     MediaPlayer mMediaPlayer;

@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.hymn;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;

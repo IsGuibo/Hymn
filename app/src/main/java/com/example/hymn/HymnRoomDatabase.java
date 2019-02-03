@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.hymn;
 import android.arch.persistence.db.SupportSQLiteDatabase;
 import android.arch.persistence.room.Database;
 import android.arch.persistence.room.Room;

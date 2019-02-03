@@ -1,4 +1,4 @@
-package com.example.myapplication;
+package com.example.hymn;
 import android.app.Application;
 import android.arch.lifecycle.AndroidViewModel;
 import android.arch.lifecycle.LiveData;

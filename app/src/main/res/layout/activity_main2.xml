@@ -39,5 +39,5 @@
         android:src="@drawable/sharp_search_24"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_behavior="com.example.myapplication.FadeBehavior"/>
+        app:layout_behavior="com.example.hymn.FadeBehavior"/>
     </android.support.design.widget.CoordinatorLayout>
