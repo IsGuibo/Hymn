@@ -672,8 +672,10 @@ class Init {
 
 
 
-        hymn =new Hymn("爱的真谛&爱喜乐生命",600,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
-        hymn =new Hymn("爱是不保留&爱使我们相聚在一起",601,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
+        hymn =new Hymn("爱的真谛",600,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/adzd");mDao.insert(hymn);
+        hymn =new Hymn("爱喜乐生命",600,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/axlsm");mDao.insert(hymn);
+        hymn =new Hymn("爱是不保留",601,GetImage.getRandImageUrl(),"http://guibo.linweiyun.com/asbbl");mDao.insert(hymn);
+        hymn =new Hymn("爱使我们相聚在一起",601,GetImage.getRandImageUrl(),"null！");mDao.insert(hymn);
         hymn =new Hymn("爱在盛开",602,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
         hymn =new Hymn("爱，我愿意",603,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);
         hymn =new Hymn("爱的钟声",604,GetImage.getRandImageUrl(),"null!");mDao.insert(hymn);

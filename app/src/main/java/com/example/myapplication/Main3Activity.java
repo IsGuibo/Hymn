@@ -20,14 +20,15 @@ public class Main3Activity extends AppCompatActivity {
         Objects.requireNonNull(actionBar).setDisplayShowTitleEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setTitle("关于诗歌✨");
-
-
         AboutView view = AboutBuilder.with(this)
-                .setPhoto(R.drawable.photo)
+                .setPhoto(R.drawable.tjclogo)
                 .setCover(R.mipmap.profile_cover)
-                .setName("isGuibo")
-                .setSubTitle("Android & material design爱好者")
-                .setBrief("这是真耶稣教会的赞美诗歌本，图片来自微软Bing。我不是专业开发者，APP还有很多缺陷，希望能够提供帮助的人士联系我。")
+                .setName("TJC")
+                .setSubTitle("真耶稣教会的赞美诗歌本")
+                .setBrief("我是真耶稣教会信徒，开发“诗歌✨”方便弟兄姐妹使用，并且在github上开放源代码" +
+                        "以期望弟兄姐妹提供技术交流。" +
+                        "诗歌歌谱来自真耶稣教会，音频来自真耶稣教会官网和第三方收集，图片来自微软Bing。" +
+                        "哈利路亚，阿们。")
                 .setAppIcon(R.mipmap.ic_launcher)
                 .setAppName(R.string.app_name)
                 .addGitHubLink("isGuibo")
