@@ -41,8 +41,8 @@ public class Main3Activity extends AppCompatActivity {
                 .addLink(R.mipmap.wb,"weibo","https://weibo.com/u/5242479890")
                 .addLink(R.mipmap.sharp_feedback_black,"Feedback","huang_guibo@outlook.com")
                 .addAction(R.drawable.web,"生命之光网站","http://www.smzg.com/")
-                .addAction(R.drawable.dwonload,"更新","https://github.com/IsGuibo/Hymn/blob/master/app/release/app-release.apk?raw=true")
-                .addShareAction("","https://github.com/IsGuibo/Hymn/blob/master/app/release/app-release.apk")
+                .addAction(R.drawable.dwonload,"更新","https://mobile.baidu.com/item?docid=25563951&source=s1001&from=singlemessage")
+                .addShareAction("","https://mobile.baidu.com/item?docid=25563951&source=s1001&from=singlemessage")
                 .build();
         RelativeLayout.LayoutParams relLayoutParams=new RelativeLayout.LayoutParams
                 (RelativeLayout.LayoutParams.MATCH_PARENT,RelativeLayout.LayoutParams.MATCH_PARENT);
