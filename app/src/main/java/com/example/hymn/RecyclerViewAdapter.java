@@ -30,17 +30,17 @@ public class RecyclerViewAdapter extends RecyclerView.Adapter<RecyclerViewAdapte
 
     }
 
-    private final LayoutInflater mInflater;
     private List<Hymn> mZMS = Collections.emptyList(); // Cached copy of words
 
-    RecyclerViewAdapter(Context context) {
-        mInflater = LayoutInflater.from(context);
+    RecyclerViewAdapter() {
     }
 
+    @NonNull
     @Override
     public HymnViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         if (mContext == null) mContext = parent.getContext();
-        View itemView = mInflater.from(mContext).inflate(R.layout.recyclerview_item, parent, false);
+        View itemView = LayoutInflater.from(mContext).inflate
+                (R.layout.recyclerview_item, parent, false);
         return new HymnViewHolder(itemView);
     }
 

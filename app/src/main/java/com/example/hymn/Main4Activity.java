@@ -45,7 +45,7 @@ public class Main4Activity extends AppCompatActivity {
             @Override
             public boolean onQueryTextSubmit(String query) {
                 RecyclerView recyclerView = findViewById(R.id.RV1);
-                final RecyclerViewAdapter adapter = new RecyclerViewAdapter(Main4Activity.this);
+                final RecyclerViewAdapter adapter = new RecyclerViewAdapter();
                 recyclerView.setAdapter(adapter);
                 recyclerView.setLayoutManager(new LinearLayoutManager(Main4Activity.this));
                 HymnViewModel mHymnViewModel = ViewModelProviders.of(Main4Activity.this).get(HymnViewModel.class);

@@ -33,8 +33,7 @@ public class RecyclerViewFragment extends Fragment {
 
         mRecyclerView=view.findViewById(R.id.recyclerView);
         context = getActivity();
-        final RecyclerViewAdapter adapter = new RecyclerViewAdapter(context);
-
+        final RecyclerViewAdapter adapter = new RecyclerViewAdapter();
         mRecyclerView.setAdapter(adapter);
         mRecyclerView.setLayoutManager(new LinearLayoutManager(getActivity()));
         HymnViewModel mHymnViewModel = ViewModelProviders.of(this).get(HymnViewModel.class);
